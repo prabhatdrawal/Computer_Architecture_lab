@@ -1,13 +1,13 @@
-![2276_4 bit parallel adder](https://github.com/user-attachments/assets/4682eaec-88c8-4f91-9471-c69b6c0934b7) Lab 1: Full Adder and 4-bit Parallel Adder
-🎯 Objective
+Lab 1: Full Adder and 4-bit Parallel Adder
+# Objective
 To understand and implement the logic of a 1-bit Full Adder.
 
 To construct a 4-bit Parallel Adder using multiple 1-bit Full Adders.
 
 To simulate and verify the operation using truth tables and Verilog code.
 
-🧠 Theory
-🔹 1-Bit Full Adder
+# Theory
+- 1-Bit Full Adder
 A full adder is a combinational circuit that adds three bits:
 
 A (input bit)
@@ -22,7 +22,7 @@ Sum
 
 Cout (carry-out)
 
-🧮 Logic Expressions:
+- Logic Expressions:
 Input A	Input B	Carry In (Cin)	Sum	Carry Out (Cout)
 0	         0	      0           	0	       0
 0          0	      1	            1	       0
@@ -39,7 +39,7 @@ Sum = A ⊕ B ⊕ Cin
 
 Cout = (A ⋅ B) + (B ⋅ Cin) + (A ⋅ Cin)
 
-🔹 4-Bit Parallel Adder
+- 4-Bit Parallel Adder
 A parallel adder connects four 1-bit full adders in sequence.
 The carry-out of each adder is fed into the carry-in of the next one.
 
@@ -63,6 +63,11 @@ Adder 1: inputs A1, B1, Cin = carry0 → S1, carry1
 Adder 2: inputs A2, B2, Cin = carry1 → S2, carry2
 
 Adder 3: inputs A3, B3, Cin = carry2 → S3, Cout
+
+
+Block diagram
+The block diagram of parallel 4 bit adder is as given below:
+![2276_4 bit parallel adder](https://github.com/user-attachments/assets/6b69f7bb-4589-499a-96d7-4ff9be7948cf)
 
 📝 Conclusion
 This lab demonstrates:
