@@ -22,16 +22,16 @@ Sum
 
 Cout (carry-out)
 
-- Logic Expressions:
-Input A	Input B	Carry In (Cin)	Sum	Carry Out (Cout)
-0	         0	      0           	0	       0
-0          0	      1	            1	       0
-0	         1	      0             1	       0
-0	         1	      1	            0	       1
-1	         0	      0	            1	       0
-1          0      	1	            0      	 1
-1	         1	      0	            0	       1
-1	         1      	1      	      1        1
+# Logical Truth Table:
+
+Full adder:
+
+![Full-Adder-Truth-Table-](https://github.com/user-attachments/assets/a2068476-e3ba-4884-afc3-c284c9b919d7)
+
+4-bit parallel adder:
+
+![4-bit-adder-Turth-Table](https://github.com/user-attachments/assets/4559020f-7048-4978-a13f-5ba512c2d226)
+
 
 Boolean Equations:
 
@@ -65,7 +65,7 @@ Adder 2: inputs A2, B2, Cin = carry1 → S2, carry2
 Adder 3: inputs A3, B3, Cin = carry2 → S3, Cout
 
 
-Block diagram and Circuit diagram
+# Block diagram and Circuit diagram
 
 The block diagram of parallel 4 bit adder is as given below:
 
