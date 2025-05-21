@@ -65,9 +65,21 @@ Adder 2: inputs A2, B2, Cin = carry1 → S2, carry2
 Adder 3: inputs A3, B3, Cin = carry2 → S3, Cout
 
 
-Block diagram
+Block diagram and Circuit diagram
+
 The block diagram of parallel 4 bit adder is as given below:
+
 ![2276_4 bit parallel adder](https://github.com/user-attachments/assets/6b69f7bb-4589-499a-96d7-4ff9be7948cf)
+
+The circuit diagram of parallel 4 bit adder is as given below:
+
+![full-adder-circuit](https://github.com/user-attachments/assets/cb1e75d2-7886-4e0a-855f-150c87ca2c7a)
+
+
+The block diagram  and circuit diagram of full adder is as given below:
+
+![full-adder-block-diagram](https://github.com/user-attachments/assets/37cbe819-e8da-494d-830f-bc8fa8a19019)
+
 
 📝 Conclusion
 This lab demonstrates:
